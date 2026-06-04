@@ -1,7 +1,7 @@
 const Version = 'Fanmori-Edge v1.0.0';
 let config_JSON, proxyIP = '', enableSOCKS5 = null, globalSOCKS5 = false, socks5Account = '', parsedSocks5Address = {};
 let cachedSocks5Whitelist = null, cachedProxyIP, cachedProxyArray, proxyArrayIndex = 0, proxyFallback = false, debugLog = false;let SOCKS5白名单 = ['*tapecontent.net', '*cloudatacdn.com', '*loadshare.org', '*cdn-centaurus.com', 'scholar.google.com'];
-const Pages静态页面 = 'https://edt-pages.github.io';
+const Pages静态页面 = 'https://fanmori.github.io/fanmori-edge';
 ///////////////////////////////////////////////////////全局常量和工具函数///////////////////////////////////////////////
 // تنظیمات تعادلی: پینگ پایین + سرعت دانلود پایدار
 const WS早期数据最大字节 = 2 * 1024, WS早期数据最大头长度 = Math.ceil(WS早期数据最大字节 * 4 / 3) + 4;

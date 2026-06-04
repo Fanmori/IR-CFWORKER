@@ -105,13 +105,13 @@ The token is `MD5(host + UUID)`.
 
 ## 🧩 How It Works – Under the Hood
 
-```mermaid
+[```mermaid
 graph LR
 A[Client] -->|VLESS/Trojan/SS| B[Cloudflare Worker]
 B -->|WebSocket/gRPC/XHTTP| C{Transport}
 C -->|If chain proxy| D[Upstream Proxy SOCKS5/HTTP/TURN]
 C -->|Direct| E[Target Server]
-D --> E ``````
+D --> E ]
 
 ## 🧩 How It Works – Under the Hood
 

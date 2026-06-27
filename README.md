@@ -202,11 +202,7 @@ Point your client software updates directly to these localized subscription form
 For maximum deployment stability, configure your production variables using the following optimized framework:
 
 ```ini
-ADMIN = "W6k!p9Q$mZ2v_Xy7R9#bN"    # High-entropy sequence strings
-UUID  = "74070776-65be-4493-8cfb-3e580e0cf476" # Formatted explicit UUIDv4 values
-KEY   = "SecuredEdgeRoutingString" # Non-predictable directory paths
-PRELOAD_RACE_DIAL = true            # Minimize first-packet routing overheads
-OFF_LOG           = true            # Shield KV storage daily access quotas
+PROXYIP = "proxyip.cmliussss.net:443"    # High-entropy sequence strings
 
 ```
 
